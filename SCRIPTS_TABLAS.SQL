@@ -1,4 +1,5 @@
 -- SCRIPTs DE TABLAS NUEVAS FASE 2
+--prueba segundo commit en hithub
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[CFAMILIA]') AND type in (N'U'))
     DROP TABLE [dbo].[CFAMILIA]
 GO
